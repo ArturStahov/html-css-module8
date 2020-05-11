@@ -1,22 +1,12 @@
 html {
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 *,
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-:root {
-  --base__font: "Montserrat", sans-serif;
-  --second_font: "Roboto", sans-serif;
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -31,4 +21,296 @@ input[type="radio"].visually-hiden {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  --base__font: "Montserrat", sans-serif;
+  --second_font: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+  font-size: 0rem;
+  font-family: var(--base__font);
+  color: rgb(255, 255, 255);
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.header_block {
+  width: 100%;
+  background-image: url("../img/image/mobile_header_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 136px;
+}
+
+.container {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.nav__button {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.nav__container {
+  margin-bottom: 100px;
+}
+
+.log__button,
+.reg__button {
+  display: inline-block;
+  border: none;
+  background-color: transparent;
+  width: 94px;
+  height: 40px;
+  font-size: 0.875rem;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+  transition-property: all;
+  transition-duration: 200ms;
+}
+
+.reg__button:hover,
+.reg__button:focus {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: 0 0 5px 5px;
+}
+.log__button:hover,
+.log__button:focus {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  background-color: transparent;
+  box-shadow: 0 0 5px 5px;
+}
+
+.log__button {
+  margin-right: 30px;
+}
+
+.logo {
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0 auto;
+  transition-property: color;
+  transition-duration: 200ms;
+}
+.logo:hover,
+.logo:focus {
+  color: rgb(255, 78, 80);
+}
+.header_title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 12px;
+}
+.header_title_firstline {
+  display: block;
+  margin-bottom: 5px;
+}
+.header_title_secondline {
+  display: block;
+}
+.header_title_sabtext {
+  font-size: 1.125rem;
+  font-family: var(--second_font);
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+  text-align: center;
+  font-weight: 300;
+  max-width: 220px;
+  margin: 0 auto 15px;
+}
+
+.header_btn_find_partner {
+  font-size: 0.875rem;
+  font-family: var(--base__font);
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 20px;
+  background-color: rgb(255, 78, 80);
+  max-width: 280px;
+  height: 40px;
+  cursor: pointer;
+  padding: 10px 0 10px 0;
+  transition-property: all;
+  transition-duration: 200ms;
+}
+.header_btn_find_partner:hover,
+.header_btn_find_partner:focus {
+  box-shadow: 0 0 5px 5px;
+}
+
+main {
+  background-color: #ffffff;
+}
+
+.section_partners {
+  padding-top: 65px;
+  padding-bottom: 57px;
+}
+
+.section_partner_title {
+  max-width: 260px;
+  text-align: center;
+  margin: 0 auto 17px;
+  font-size: 1.375rem;
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.partners__list {
+  margin-bottom: 25px;
+}
+.partner__list_item {
+  max-width: 225px;
+  text-align: center;
+  margin: 0 auto 20px;
+}
+
+.partner_name {
+  font-size: 0.875rem;
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+.partner_descr {
+  font-size: 0.875rem;
+  font-family: var(--second_font);
+  color: rgb(102, 102, 102);
+  line-height: 1.2;
+  font-weight: 300;
+}
+.partner_ico {
+  margin: 0 auto 15px;
+  width: 121px;
+  height: 121px;
+  border-radius: 50%;
+}
+
+.section_btn_see_other {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin: 0 auto;
+  max-width: 284px;
+  height: 44px;
+  cursor: pointer;
+  padding: 10px 0 10px 0;
+  transition-property: all;
+  transition-duration: 200ms;
+}
+.section_btn_see_other a {
+  font-size: 0.875rem;
+  font-family: var(--base__font);
+  color: rgb(255, 78, 80);
+  font-weight: 700;
+  line-height: 1.2;
+}
+.ico_partner_container {
+  position: relative;
+}
+.ico_wath_tv::before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 78, 80);
+  background-image: url("../img/ico/ico_wath_tv.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 37px;
+  height: 37px;
+  bottom: 0;
+  right: 50px;
+  z-index: 1;
+}
+.ico_learn::before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(255, 165, 7);
+  background-image: url("../img/ico/ico_learn.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 37px;
+  height: 36px;
+  bottom: 0;
+  right: 50px;
+  z-index: 1;
+}
+.ico_coofe::before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(28, 215, 173);
+  background-image: url("../img/ico/ico_cofee.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 37px;
+  height: 37px;
+  bottom: 0;
+  right: 50px;
+  z-index: 1;
+}
+
+.ico_play::before {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 4px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  background-color: rgb(78, 115, 219);
+  background-image: url("../img/ico/ico_play.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 37px;
+  height: 37px;
+  bottom: 0;
+  right: 50px;
+  z-index: 1;
 }
