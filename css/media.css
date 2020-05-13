@@ -1,0 +1,110 @@
+@media (max-width: 768px) {
+  .header_block {
+    padding-bottom: 136px;
+  }
+  .header_block {
+    background-image: linear-gradient(
+        rgb(26, 25, 21, 0.15),
+        rgb(26, 25, 21, 0.15)
+      ),
+      url("../img/image/mobile_header_bg.jpg");
+  }
+  .container {
+    width: 320px;
+    margin: 0 auto;
+  }
+  .nav_container {
+    width: 320px;
+  }
+  .nav__button {
+    margin-bottom: 118px;
+  }
+  .header_title_sabtext {
+    max-width: 220px;
+  }
+  .section_partner_title {
+    max-width: 260px;
+  }
+
+  .logo {
+    margin: 0 auto 30px;
+  }
+  .partner__list_item {
+    margin: 0 auto 20px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 959px) {
+  .header_block {
+    padding-bottom: 235px;
+  }
+  .header_block {
+    background-image: linear-gradient(
+        rgb(26, 25, 21, 0.15),
+        rgb(26, 25, 21, 0.15)
+      ),
+      url("../img/image/tablet_header_bg.jpg");
+  }
+  .container {
+    width: 492px;
+    margin: 0 auto;
+  }
+  .nav__container {
+    width: 660px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 159px;
+  }
+  .section_partner_title {
+    margin-bottom: 32px;
+  }
+  .partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+  }
+  .partner__list_item {
+    max-width: 236px;
+  }
+
+  .partner__list_item:nth-child(odd) {
+    margin-right: 20px;
+  }
+  .partner__list_item:not(:nth-last-child(-n + 2)) {
+    margin-bottom: 56px;
+  }
+}
+
+@media (min-width: 960px) {
+  .header_block {
+    padding-bottom: 235px;
+  }
+  .header_title {
+    font-size: 3.25rem;
+  }
+  .header_title_sabtext {
+    font-size: 1.5rem;
+  }
+  .header_block {
+    background-image: linear-gradient(
+        rgb(26, 25, 21, 0.15),
+        rgb(26, 25, 21, 0.15)
+      ),
+      url("../img/image/desktop_header_bg.jpg");
+  }
+  .container {
+    width: 942px;
+    margin: 0 auto;
+  }
+  .nav__container {
+    width: 942px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 149px;
+  }
+  .partners__list {
+    display: flex;
+    margin-bottom: 35px;
+  }
+}
