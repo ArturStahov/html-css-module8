@@ -1,13 +1,11 @@
 @media (max-width: 768px) {
   .header_block {
-    padding-bottom: 136px;
-  }
-  .header_block {
     background-image: linear-gradient(
         rgb(26, 25, 21, 0.15),
         rgb(26, 25, 21, 0.15)
       ),
       url("../img/image/mobile_header_bg.jpg");
+    padding-bottom: 136px;
   }
   .container {
     width: 320px;
@@ -35,14 +33,12 @@
 }
 @media screen and (min-width: 769px) and (max-width: 959px) {
   .header_block {
-    padding-bottom: 235px;
-  }
-  .header_block {
     background-image: linear-gradient(
         rgb(26, 25, 21, 0.15),
         rgb(26, 25, 21, 0.15)
       ),
       url("../img/image/tablet_header_bg.jpg");
+    padding-bottom: 235px;
   }
   .container {
     width: 492px;
@@ -76,9 +72,6 @@
 }
 
 @media (min-width: 960px) {
-  .header_block {
-    padding-bottom: 235px;
-  }
   .header_title {
     font-size: 3.25rem;
   }
@@ -91,6 +84,7 @@
         rgb(26, 25, 21, 0.15)
       ),
       url("../img/image/desktop_header_bg.jpg");
+    padding-bottom: 235px;
   }
   .container {
     width: 942px;
