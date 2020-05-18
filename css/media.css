@@ -62,7 +62,12 @@
   .partner__list_item {
     max-width: 236px;
   }
-
+  /* .partner_lucas {
+    order: 1;
+  }
+  .partner_heather {
+    order: 2;
+  } */
   .partner__list_item:nth-child(odd) {
     margin-right: 20px;
   }
